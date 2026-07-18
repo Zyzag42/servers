@@ -276,6 +276,7 @@ Calculate: Hypothetical P&L
 Analyze: What worked
 
 Duration: Until 40 trades completed (engineering phase)
+
 ### Real Capital Phase (After Validation)**Requirements before live trading:**
 Must achieve:
 → 40: Engineering trades (stabilization)
@@ -283,20 +284,24 @@ Must achieve:
 → 113+: Wins out of 200 (statistical significance)
 → Positive: P&L after fees
 → Ablation: Study shows which components add value
+
 Then and only then:
 → Start: With small capital ($100-500)
 → Gradual: Scale based on results
 → Evidence: Drives all decisions
+
 ## Risk Management### Capital Protection**Position Limits:**
 Per Trade: Maximum 10% of capital
 Daily Loss: Maximum $50 during testing
 Weekly Loss: Maximum $150 during testing
 Drawdown Limit: If down 20%, pause and reassess
+
 **Emotional Protection:**
 No revenge trading: If loss, wait for next clear signal
 No FOMO: If missed trade, wait for next setup
 No overconfidence: If win streak, maintain discipline
 No desperation: If losing, don't increase size
+
 ### The "Binary Inviolate Philosophy"**Dean's wisdom:**"Even if multiple reasons for liquidity spike, treating it like MEV manipulation is no bad thing."**Applied:**
 Paranoid = Good:
 → Assume: Hostile market
@@ -309,12 +314,14 @@ Survival > Optimization:
 → Better: False positive than trapped
 → Better: Cautious than reckless
 → Better: Alive to trade tomorrow
+
 ## Integration with Tesla Energy### Why Tesla Energy Gives Edge**Conventional Approach:**
 Most traders:
 → Watch: Price only
 → React: To current movement
 → Chase: Momentum
 → Get: Trapped by reversals
+
 **Our Approach:**
 Tesla Energy:
 → Predicts: Future phase convergence
@@ -345,18 +352,22 @@ Position: $100 capital → 232 shares
 Target: Resolution YES = $232 payout
 Risk: Resolution NO = $0
 Net Risk: $100
-**Outcome Scenarios:****Scenario A: Correct Prediction**
+**Outcome Scenarios:
+
+****Scenario A: Correct Prediction**
 10:20 AM: BTC closes at $67,220 (above threshold)
 Resolution: YES wins
 Payout: 232 shares × $1.00 = $232
 Profit: $232 - $100 = $132
 ROI: 132% in 4 minutes
+
 **Scenario B: Incorrect Prediction**
 10:20 AM: BTC closes at $67,190 (below threshold)
 Resolution: NO wins
 Payout: $0
 Loss: $100
 ROI: -100%
+
 **Scenario C: MEV Manipulation Detected**
 10:19:30 (30 seconds before close):
 → Binary Inviolate: Spikes to 4 (maximum)
@@ -368,6 +379,7 @@ Decision:
 → IF conflict: Consider exit (if possible)
 → This trade: Signals aligned, so HOLD through flip
 → Outcome: Trust the system
+
 **Risk-Reward:**
 Win Rate Required:
 → At 0.43 entry: Need 43% win rate to break even
