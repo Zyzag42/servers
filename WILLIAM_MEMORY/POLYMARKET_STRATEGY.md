@@ -1,5 +1,4 @@
 # Polymarket Strategy - Prediction Market Trading
-
 ## Platform Overview
 
 **Platform:** Polymarket  
