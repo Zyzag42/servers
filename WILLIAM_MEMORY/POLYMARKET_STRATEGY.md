@@ -195,41 +195,49 @@ IF Binary Inviolate + Tesla Energy conflict:
 → Example: Binary Inviolate says manipulation, Tesla says UP, but price flipping DOWN
 → Interpretation: Manipulation against our signal
 → Action: Exit or don't enter
-**This is our edge: Detecting real direction vs. manipulation.**### DeltaForge Three-Gate System**From their bot (we'll integrate):****GATE 1: Microstructure Confidence**
+**This is our edge: Detecting real direction vs. manipulation.**### DeltaForge Three-Gate System**From their bot (we'll integrate):
+
+****GATE 1: Microstructure Confidence**
 Pre-filters:
 → Stale lag: >20 seconds (skip)
 → Chase: >8% premium (skip)
 → EV decaying: (skip)
 Purpose: Remove low-quality setups
+
 **GATE 2: EV + Cost**
 Filters:
 → EV adjusted average: >2.0% floor
 → Spread cap: 3%
 Purpose: Ensure profitability after costs
+
 **GATE 3: BTC Momentum Direction**
 Confirmation:
 → Binance/Chainlink: Direction check
 → Minimum momentum: 0.050% move
 → Polymarket alignment: Check
 Purpose: Final directional confirmation
+
 **Our Addition: GATE 4 (Tesla Energy + Binary Inviolate)**
 Our unique layer:
 → Tesla phase convergence: Must align
 → Binary Inviolate: Liquidity event detected
 → Four-signal confluence: All aligned
 Purpose: Add phase-coherence edge
+
 **This creates a 4-gate system - comprehensive filtering.**## Market Selection### Which 5-Min BTC Markets to Trade**Criteria:**
 ✅ Volume: >$10,000 traded
 ✅ Spread: <5% bid-ask
 ✅ Liquidity: >$1,000 on each side
 ✅ Resolution: Clear (Binance close price)
 ✅ Timing: During active hours (avoid 3-6am ET)
+
 **Avoid:**
 ❌ Low volume: <$1,000 (manipulation easier)
 ❌ Wide spread: >10% (costs too high)
 ❌ Thin liquidity: <$200 per side (slippage risk)
 ❌ Ambiguous: Resolution source unclear
 ❌ Dead hours: 3-6am ET (low participation)
+
 ### Optimal Trading Hours**Best Performance Expected:**
 Peak Hours:
 → 9am-12pm ET: U.S. market open
